@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Agitator type="j2ee">
+<AgitarDirectory>agitar</AgitarDirectory>
+<ResultDirectory>agitar/.results</ResultDirectory>
+<ConfigDirectory>agitar/config</ConfigDirectory>
+<ImportedCoverageDirectory>agitar/imports</ImportedCoverageDirectory>
+<SourcePath>%%%SRC%%%</SourcePath>
+<ClassPath>%%%CP%%%</ClassPath>
+<LibraryPath>%%%ECLIPSE%%%/plugins/org.junit_4.11.0.v201303080030/junit.jar;%%%ECLIPSE%%%/plugins/org.hamcrest.core_1.3.0.v201303031735.jar;%%%LIBS%%%%%%ECLIPSE%%%/plugins/com.agitar.eclipse.api_6.1.1.000008/lib/ext/org.agitar.mock.jar;%%%ECLIPSE%%%/plugins/com.agitar.eclipse.api_6.1.1.000008/com.agitar.mockingbird.jar</LibraryPath>
+<Version>2</Version>
+<JavaArgs>-Xms128m -Xmx512m</JavaArgs>
+</Agitator>
