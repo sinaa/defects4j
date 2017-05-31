@@ -47,6 +47,16 @@ get_project_cp() {
     $D4J_HOME/framework/bin/defects4j export -pcp.compile -w$D4J_DIR_WORKDIR 2> /dev/null
 }
 
+# Get the project bin dir.
+get_project_bin() {
+    $D4J_HOME/framework/bin/defects4j export -pdir.bin.classes -w$D4J_DIR_WORKDIR 2> /dev/null
+}
+
+# Get the project src dir.
+get_project_src() {
+    $D4J_HOME/framework/bin/defects4j export -pdir.src.classes -w$D4J_DIR_WORKDIR 2> /dev/null
+}
+
 # Check whether all expected environment variables are properly exported.
 sanity_check() {
     check_env D4J_HOME
